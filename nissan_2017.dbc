@@ -154,3 +154,76 @@ BO_ 438 ProPilot: 8 XXX
  SG_ CRUISE_ACTIVATED : 38|1@0+ (1,0) [0|3] "" XXX
  SG_ STEER_STATUS : 51|1@1+ (1,0) [0|3] "" XXX
  SG_ CRUISE_ON : 36|1@0+ (1,0) [0|255] "" XXX
+
+BO_ 517 LeadCarRadar: 8 XXX
+ SG_ LAT_ANGLE : 31|10@0- (1,0) [0|1023] "" XXX
+ SG_ ALT_ANGLE : 37|10@0+ (1,0) [0|255] "" XXX
+ SG_ VALID : 51|1@0+ (1,0) [0|1] "" XXX
+ SG_ COUNTER : 48|2@1+ (1,0) [0|3] "" XXX
+ SG_ DISTANCE : 7|12@0+ (0.05,0) [0|63] "m" XXX
+ SG_ UNSURE : 43|1@0+ (1,0) [0|1] "" XXX
+ SG_ REL_SPEED : 11|12@0- (0.2,0) [0|4095] "kmh" XXX
+
+BO_ 522 NEW_MSG_1: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|12@0+ (1,0) [0|4095] "" XXX
+ SG_ NEW_SIGNAL_2 : 39|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 542 RADAR_1: 8 XXX
+ SG_ TRACK_ID : 7|12@0+ (1,0) [0|63] "" XXX
+ SG_ UNSURE : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ DISTANCE : 23|12@0+ (1,0) [0|63] "" XXX
+ SG_ LAT_POS : 27|12@0- (1,0) [0|4095] "" XXX
+ SG_ REL_SPEED : 47|12@0- (1,0) [0|63] "" XXX
+ SG_ COUNTER : 49|2@0+ (1,0) [0|15] "" XXX
+ SG_ STATE? : 50|2@1+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM? : 63|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 543 RADAR_2: 8 XXX
+ SG_ TRACK_ID : 7|12@0+ (1,0) [0|63] "" XXX
+ SG_ UNSURE : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ DISTANCE : 23|12@0+ (1,0) [0|63] "" XXX
+ SG_ LAT_POS : 27|12@0- (1,0) [0|4095] "" XXX
+ SG_ REL_SPEED : 47|12@0- (1,0) [0|63] "" XXX
+ SG_ COUNTER : 49|2@0+ (1,0) [0|15] "" XXX
+ SG_ STATE? : 50|2@1+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM? : 63|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 544 RADAR_3: 8 XXX
+ SG_ TRACK_ID : 7|12@0+ (1,0) [0|63] "" XXX
+ SG_ UNSURE : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ DISTANCE : 23|12@0+ (1,0) [0|63] "" XXX
+ SG_ LAT_POS : 27|12@0- (1,0) [0|4095] "" XXX
+ SG_ REL_SPEED : 47|12@0- (1,0) [0|63] "" XXX
+ SG_ COUNTER : 49|2@0+ (1,0) [0|15] "" XXX
+ SG_ STATE? : 50|2@1+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM? : 63|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 545 RADAR_4: 8 XXX
+ SG_ TRACK_ID : 7|12@0+ (1,0) [0|63] "" XXX
+ SG_ UNSURE : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ DISTANCE : 23|12@0+ (1,0) [0|63] "" XXX
+ SG_ LAT_POS : 27|12@0- (1,0) [0|4095] "" XXX
+ SG_ REL_SPEED : 47|12@0- (1,0) [0|63] "" XXX
+ SG_ COUNTER : 49|2@0+ (1,0) [0|15] "" XXX
+ SG_ STATE? : 50|2@1+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM? : 63|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 546 RADAR_5: 8 XXX
+ SG_ TRACK_ID : 7|12@0+ (1,0) [0|63] "" XXX
+ SG_ UNSURE : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ DISTANCE : 23|12@0+ (1,0) [0|63] "" XXX
+ SG_ LAT_POS : 27|12@0- (1,0) [0|4095] "" XXX
+ SG_ REL_SPEED : 47|12@0- (1,0) [0|63] "" XXX
+ SG_ COUNTER : 49|2@0+ (1,0) [0|15] "" XXX
+ SG_ STATE? : 50|2@1+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM? : 63|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 547 RADAR_6: 8 XXX
+ SG_ TRACK_ID : 7|12@0+ (1,0) [0|63] "" XXX
+ SG_ UNSURE : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ DISTANCE : 23|12@0+ (1,0) [0|63] "" XXX
+ SG_ LAT_POS : 27|12@0- (1,0) [0|4095] "" XXX
+ SG_ REL_SPEED : 47|12@0- (1,0) [0|63] "" XXX
+ SG_ COUNTER : 49|2@0+ (1,0) [0|15] "" XXX
+ SG_ STATE? : 50|2@1+ (1,0) [0|3] "" XXX
+ SG_ CHECKSUM? : 63|8@0+ (1,0) [0|255] "" XXX
